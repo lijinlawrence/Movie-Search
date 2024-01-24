@@ -55,16 +55,16 @@ const {
 
   return (
     <>
-    <div  >
-      <div className="container mt-3 d-flex justify-content-between ">
+    <div  className="" >
+      <div className="container mt-3 d-flex justify-content-between  ">
         <h1>
           <span className="text-light  ">GLAM</span>
           <span className="text-warning">Film</span>
         </h1>
         <div className=" d-flex gap-4 mt-2">
-        <FontAwesomeIcon icon={faFacebook} bounce style={{ color: "#FFD43B" }} />
-        <FontAwesomeIcon icon={faWhatsapp} bounce style={{ color: "#FFD43B" }} />
-        <FontAwesomeIcon icon={faTwitter} bounce style={{ color: "#FFD43B" }} />
+        <FontAwesomeIcon icon={faFacebook} bounce className=" text-warning"/>
+        <FontAwesomeIcon icon={faWhatsapp} bounce className=" text-warning"/>
+        <FontAwesomeIcon icon={faTwitter} bounce className=" text-warning" />
         </div>
       </div>
 
